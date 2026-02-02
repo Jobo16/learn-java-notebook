@@ -27,6 +27,7 @@ status: active
 - 将结果重定向以备份：`powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/list-by-tag.ps1 -Tag 算法 > tag-算法.txt`。
 
 ## Obsidian 内部跳转
+- 根目录入口：先看 `README.md` 了解结构与流程。
 - 每篇笔记头部的 `title` 与 Obsidian 搜索同步，可用 `title:"方法-重写示例"` 直接定位。
 - 使用 Graph view，按 `tag:基础语法`、`tag:算法练习` 过滤即可映射知识块。
 

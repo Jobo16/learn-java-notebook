@@ -53,6 +53,7 @@ status: active
 - 编码策略：[skill-encoding-handling](09-技能参考/30-编码策略/skill-encoding-handling.md)
 
 ## 根目录资料
+- README：[README.md](README.md)
 - 贡献指南：[AGENTS.md](AGENTS.md)
 - 结构策略：[structure-plan.md](structure-plan.md)
 - 搜索指南：[search-guide.md](search-guide.md)
