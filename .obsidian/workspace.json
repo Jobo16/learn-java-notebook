@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "a9280201262a44d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "859d7085a1d79b54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31633238974d1d2b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "textbook/[OCR]_软件工程导论第五版_20260202_1309.layered.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "[OCR]_软件工程导论第五版_20260202_1309.layered"
+            }
+          },
+          {
+            "id": "45a98539b9447751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-数值处理/10-BigDecimal/BigDecimal-示例笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BigDecimal-示例笔记"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ebd2172a79119426",
+    "type": "split",
+    "children": [
+      {
+        "id": "9709873dc6660609",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0fa914c3f22fad7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "c6115cf5878de161",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "b003d5b8eff30371",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "353ab4c0dfe1a5d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "db56c624abc05645",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70622ac5dadfe815",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "text/[OCR]_软件工程导论第五版_20260202_1309.layered.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "[OCR]_软件工程导论第五版_20260202_1309.layered 的反向链接列表"
+            }
+          },
+          {
+            "id": "4dfd1b6d0f7c6f1b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "text/[OCR]_软件工程导论第五版_20260202_1309.layered.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "[OCR]_软件工程导论第五版_20260202_1309.layered 的出链列表"
+            }
+          },
+          {
+            "id": "b13e18ae55694467",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "4ebea9021db4bdb5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "f432728f6caef419",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "text/[OCR]_软件工程导论第五版_20260202_1309.layered.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "[OCR]_软件工程导论第五版_20260202_1309.layered 的大纲"
+            }
+          },
+          {
+            "id": "82166f5c30072bab",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "45a98539b9447751",
+  "lastOpenFiles": [
+    "Pasted image 20260123165408.png",
+    "Pasted image 20260123164939.png",
+    "Pasted image 20260123163657.png",
+    "Pasted image 20260123162829.png",
+    "Pasted image 20260123155931.png",
+    "Pasted image 20260123150523.png",
+    "05-数值处理/10-BigDecimal/BigDecimal-核心API.md",
+    "06-字符串与比较/10-等值判断/比较-equals实现细节.md",
+    "06-字符串与比较/10-等值判断/比较-==与equals区别.md",
+    "05-数值处理/10-BigDecimal/BigDecimal-示例笔记.md",
+    "structure-plan.md",
+    "search-guide.md",
+    "java的设计模式 和 懒加载.md",
+    "INDEX.md",
+    "AGENTS.md",
+    "commit-message.txt",
+    "skills/json-canvas/SKILL.md",
+    "README.md",
+    "toString vs toArray.md",
+    "07-算法练习/30-题目索引/练习-题目索引.md",
+    "07-算法练习/20-牛客专项/牛客-字符串转换.md",
+    "07-算法练习/20-牛客专项/牛客-难题集.md",
+    "07-算法练习/10-排序/排序-冒泡实现.md",
+    "02-控制流与异常/10-循环与分支/分支-switch模式.md",
+    "03-面向对象/10-对象模型/方法-重载与重写比较.md",
+    "03-面向对象/10-对象模型/方法-签名定义.md",
+    "03-面向对象/10-对象模型/对象-构造方法细节.md",
+    "04-泛型与装箱/10-装箱原理/装箱-自动拆箱陷阱.md",
+    "04-泛型与装箱/10-装箱原理/装箱-包装类型速览.md",
+    "textbook/[OCR]_软件工程导论第五版_20260202_1309.layered.pdf",
+    "textbook/软件工程导论第五版.pdf",
+    "textbook",
+    "08-工具与计划/10-IDE/IDE-IntelliJ使用.md"
+  ]
+}

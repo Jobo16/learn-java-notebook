@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDE-IntelliJ使用
 category: 08-工具与计划
 topic: 10-IDE

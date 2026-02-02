@@ -27,3 +27,4 @@ Use Conventional Commit messages like `docs: fix note encodings` or `docs(05-数
 
 ## Agent-Specific Instructions
 Pause Obsidian sync while editing, resume after committing, and scan for sensitive leftovers with `rg -n "TODO" -g "*.md"` or targeted keywords. Keep `notes-inventory.csv` aligned with the folder tree, log new lanes in `structure-plan.md`, and record operational fixes inside SKILL docs instead of scattering them across study notes.
+Operational notes from recent runs: `npx markdownlint "**/*.md"` may fail with "could not determine executable to run"; `npx prettier --check "**/*.md"` can report widespread pre-existing formatting warnings; avoid `--check` in `git commit -m` lines (use `git commit -F <file>` to prevent option parsing).
