@@ -1,4 +1,4 @@
-﻿---
+---
 title: 比较-==与equals区别
 category: 06-字符串与比较
 topic: 10-等值判断
@@ -60,14 +60,7 @@ status: active
     
 - **默认行为**：默认实现与`==`相同，比较内存地址。
     
-    java
-    
-    java
-    
-    下载
-    
-    复制
-    
+
     ```
     // Object类中的equals()默认实现
     public boolean equals(Object obj) {
@@ -108,13 +101,7 @@ status: active
 
 - **字符串常量池**：字符串字面量（如`"hello"`）会放入常量池，相同字面量可能指向同一对象。
     
-    java
-    
-    java
-    
-    下载
-    
-    复制
+
     
     ```
     String s1 = "hello"; // 常量池中的对象

@@ -1,4 +1,4 @@
-﻿---
+---
 title: BigDecimal-核心API
 category: 05-数值处理
 topic: 10-BigDecimal

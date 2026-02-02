@@ -50,6 +50,7 @@ status: active
 ## 09-技能参考
 - JSON Canvas：[json-canvas-SKILL](09-技能参考/10-json-canvas/json-canvas-SKILL.md)
 - Obsidian：[obsidian-基础技能](09-技能参考/20-obsidian/obsidian-基础技能.md)、[obsidian-markdown技能](09-技能参考/20-obsidian/obsidian-markdown技能.md)
+- 编码策略：[skill-encoding-handling](09-技能参考/30-编码策略/skill-encoding-handling.md)
 
 ## 根目录资料
 - 贡献指南：[AGENTS.md](AGENTS.md)

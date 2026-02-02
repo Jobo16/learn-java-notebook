@@ -1,4 +1,4 @@
-﻿---
+---
 title: 比较-equals实现细节
 category: 06-字符串与比较
 topic: 10-等值判断

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AGENTS
 category: root
 topic: root
@@ -11,25 +11,19 @@ status: active
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-Content lives under numbered domains: `01-閸╄櫣顢呯拠顓熺《/` through `08-瀹搞儱鍙挎稉搴ゎ吀閸?`, plus `09-閹垛偓閼宠棄寮懓?` for Obsidian/JSON Canvas skills. Each domain contains ordered subfolders (for example `03-闂堛垹鎮滅€电钖?20-缂佈勫娑撳骸顦块幀?婢舵碍鈧?instanceof閻劍纭?md`). Root hosts contributor docs (`AGENTS.md`, `structure-plan.md`, `INDEX.md`, `search-guide.md`), the CSV inventory, and helper scripts. When adding a note, choose the domain, drop it into the proper `10-`/`20-` second-level folder, and keep filenames in the `娑撳顣?鐟曚胶鍋?md` pattern.
+Content lives in numbered domains `01-基础语法` … `08-工具与计划` with lanes such as `10-概览`, `20-实践`, and `30-参考`. Add notes inside the correct domain/lane (for example `03-面向对象/20-模式与实践`) and keep filenames in the `主题-要点.md` pattern. Update `INDEX.md`, `structure-plan.md`, `search-guide.md`, and `notes-inventory.csv` whenever files move or metadata changes. `scripts/` hosts helper PowerShell utilities, while `skills/` stores standalone agent skills and stays out of routine reorganizations.
 
 ## Build, Test, and Development Commands
-- `rg -n "<term>" 03-闂堛垹鎮滅€电钖?--glob "*.md"` 閳?find references by domain while ignoring front matter noise.
-- `npx markdownlint "**/*.md"` 閳?enforce heading spacing; append `--fix` only after reviewing diffs.
-- `npx prettier --check "**/*.md"` 閳?optional formatting verification for collaborators editing in VS Code.
-- `powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/list-by-tag.ps1 -Tag 閸╄櫣顢呯拠顓熺《` 閳?list all notes sharing a tag before curating `INDEX.md`.
-- For runnable snippets, park them beside the note under `code/` or `snippets/` and validate with `javac Demo.java && java Demo`.
+`git status -sb` keeps the local-only history clean. Scope searches with `rg -n "<term>" 07-算法练习 --glob "*.md"` (swap folders as needed). Generate tag reports via `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/list-by-tag.ps1 -Tag 基础语法` and compare the output to `notes-inventory.csv`. Run `npx markdownlint "**/*.md"` and `npx prettier --check "**/*.md"` after each editing batch; add `--fix` only after reviewing diffs.
 
 ## Coding Style & Naming Conventions
-Use two-level headings max (`##`/`###`), bullets for comparisons, and fenced blocks tagged `java` or `shell`. Keep code indented with 4 spaces and camelCase identifiers. Highlight key terms in **bold** sparingly. File names stay descriptive and bilingual if needed (`鐟佸懐顔?閼奉亜濮╅幏鍡欘唸闂勭兘妲?md`), while metadata front matter must include `title/category/topic/created/reviewed/tags/status` exactly as shown in `structure-plan.md`.
+Start every Markdown file with YAML front matter listing `title`, `category`, `topic`, `created`, `reviewed`, `tags`, and `status`, matching the latest notes. Limit headings to `##`/`###`, keep bullet sentences short, and fence code with triple backticks labeled `java` or `shell`. Indent snippets with 4 spaces and use camelCase identifiers. Follow the existing name/description SKILL template when editing `skills/*/SKILL.md`, and never relocate those files.
 
 ## Testing Guidelines
-Before closing a note, lint it, run any referenced code, and capture sample input/output. Algorithm entries must include娑撯偓濞堝吀鍚夋禒锝囩垳閹?Java 閺傝纭舵禒銉ュ挤妫板嫭婀＄紒鎾寸亯鐞涖劊鈧繂rack open issues with a `TODO:` list at the bottom and remove it once verified.
+Include the command used to verify runnable Java (e.g., `javac Demo.java && java Demo`) plus representative input/output. Algorithm notes under `07-算法练习` must state time/space complexity and at least two test cases; leave a TODO list only while issues remain. Rerun linters and referenced commands before updating `INDEX.md` or marking front matter "reviewed".
 
 ## Commit & Pull Request Guidelines
-Follow Conventional Commits: `docs(閹貉冨煑濞?: add switch cheat sheet`. PRs should describe scope, link impacted files (e.g., `03-闂堛垹鎮滅€电钖?20-缂佈勫娑撳骸顦块幀?**`), list verification commands (`rg`, `markdownlint`, `javac`), and attach screenshots for diagram updates. Request reviewers familiar with the module and wait for at least one approval.
+Use Conventional Commit messages like `docs: fix note encodings` or `docs(05-数值处理): add BigDecimal pitfalls`. Keep each commit scoped to one domain and list verification steps (lint, tag script, sample runs) in the body. With no remote, share branches directly or export patches via `git format-patch`, and confirm `git status -sb` is clean before handoff.
 
-## Agent Workflow Tips
-Sync Obsidian before editing, pause sync while running lint/tests, and confirm no credentials remain via `rg -n "鐎靛棛鐖? -g"*.md"`. Update `notes-inventory.csv` whenever you add or remove notes, and refresh `INDEX.md` so newcomers can discover the material quickly.
-
-
+## Agent-Specific Instructions
+Pause Obsidian sync while editing, resume after committing, and scan for sensitive leftovers with `rg -n "TODO" -g "*.md"` or targeted keywords. Keep `notes-inventory.csv` aligned with the folder tree, log new lanes in `structure-plan.md`, and record operational fixes inside SKILL docs instead of scattering them across study notes.

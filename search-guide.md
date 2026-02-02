@@ -1,4 +1,4 @@
-﻿---
+---
 title: search-guide
 category: root
 topic: root
