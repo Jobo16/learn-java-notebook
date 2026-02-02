@@ -1,0 +1,17 @@
+定位：介于编译型语言和解释型语言之间：
+字节码：抽象的、与平台无关的指令集
+
+Java分出了三个不同版本
+
+- Java SE：Standard Edition
+- Java EE：Enterprise Edition
+- Java ME：Micro Edition
+
+Java SE就是标准版，包含标准的JVM和标准库，而Java EE是企业版，它只是在Java SE的基础上加上了大量的API和库，以便方便开发Web应用、数据库、消息服务等，Java EE的应用使用的虚拟机和Java SE完全相同
+
+
+数的除法对于除数为0时运行时将报错，但编译不会报错。
+
+java的变量：引用类型和基本类型8个![[Pasted image 20260123150523.png]]
+
+![[Pasted image 20260123162829.png]]整数类型统一用**二进制补码**存储
