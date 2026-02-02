@@ -1,4 +1,4 @@
----
+﻿---
 title: 分支-switch模式
 category: 02-控制流与异常
 topic: 10-循环与分支
@@ -28,3 +28,4 @@ public class Second {
 }
 
 ```
+

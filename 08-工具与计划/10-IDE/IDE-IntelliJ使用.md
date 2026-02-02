@@ -8,36 +8,41 @@ tags: [java, 工具与计划]
 status: active
 ---
 
-- 鍩烘湰琛ュ叏锛歝trl + space
-- 鍙屽嚮 shift : 鎼滅储
-- ctrl + shift + enter 琛ュ叏鍙ュ瓙
-- 涓婁笅鏂囨搷浣? alt + enter
-- ctrl + d 澶嶅埗涓€琛?
+- 基本补全：ctrl + space
+- 双击 shift : 搜索
+- ctrl + shift + enter 补全句子
+- 上下文操作  alt + enter
+- ctrl + d 复制一行 
 
-- alt + shift 鍚戜笅鐨勭澶粹€?鍚戜笅鎷夊彇褰撳墠琛屻€?- ctrl shift 绠ご锛氱Щ鍔ㄦ暣涓柟娉?
-#### 澶栧洿鍜岃В鍖咃細
+- alt + shift 向下的箭头“ 向下拉取当前行。
+- ctrl shift 箭头：移动整个方法
+
+#### 外围和解包：
 - ctrl + alt + t : 
 
--  alt + j 閫夋嫨涓庢枃鏈厜鏍囧鐨勭浉鍚岀殑绗﹀彿
+-  alt + j 选择与文本光标处的相同的符号
 
-绫诲瀷鍖归厤寤鸿锛歝trl shift space
-鍚庣紑琛ュ厖锛?姣斿if 锛?
+类型匹配建议：ctrl shift space
+后缀补充（ 比如if ）:
 
-璇彞琛ュ叏锛歝trl shift enter 锛屾瘮濡傝ˉ鍏╢or 璇彞
+语句补全：ctrl shift enter ，比如补全for 语句
 
-浣跨敤tab 琛ュ叏锛氳繖鏄浛鎹紝浣跨敤enter鍒欐槸澧炲姞銆?
-鎻愬彇鏂规硶锛?ctrl + alt + m 灏嗘墍閫変唬鐮佹彁鍙栧埌鏂规硶
+使用tab 补全：这是替换，使用enter则是增加。
 
-**浠ｇ爜鏍煎紡 涓€閿暣鐞嗭細
+提取方法： ctrl + alt + m 将所选代码提取到方法
 
-ctrl alt l  or 鍔犱竴涓猻hift
+**代码格式 一键整理：
+
+ctrl alt l  or 加一个shift
 
 
-鏌ョ湅褰㈠弬淇℃伅锛?ctrl +p
+查看形参信息： ctrl +p
 
-鏂囦欢涓煡鎵撅細ctrl shift f : alt + w 缂╁皬鑼冨洿
+文件中查找：ctrl shift f : alt + w 缩小范围
 
-鏈€杩戠殑鏂囦欢鍜屼綅缃細 ctrl +e
+最近的文件和位置： ctrl +e
 
-git 鏂归潰锛歝trl + t  鏇存柊椤圭洰锛堢洰鍓嶇悊瑙ｆ槸pull 鐨勬剰鎬濓細main绾夸笂锛?
+git 方面：ctrl + t  更新项目（目前理解是pull 的意思：main线上）
+
 ctrl + shift + f10
+

@@ -14,9 +14,10 @@ public class Main {
     public static void main(String[] args) {  
         Object obj = "Hello";  
         if (obj instanceof String s) {  
-            //鍙互鐩存帴浣跨敤鍙橀噺s:  
+            //可以直接使用变量s:  
             System.out.println(s.toUpperCase());  
         }  
     }  
 }
 ```
+

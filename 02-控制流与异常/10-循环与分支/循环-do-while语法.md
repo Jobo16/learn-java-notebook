@@ -1,4 +1,4 @@
----
+﻿---
 title: 循环-do-while语法
 category: 02-控制流与异常
 topic: 10-循环与分支
@@ -16,7 +16,7 @@ public class Second {
         int sum = 0;  
         int m = 20;  
         int n = 100;  
-        //浣跨敤do while 璁＄畻  
+        //使用do while 计算  
         do {  
             sum = sum + m++;  
         } while (m < n);  
@@ -26,3 +26,4 @@ public class Second {
     }  
 }
 ```
+

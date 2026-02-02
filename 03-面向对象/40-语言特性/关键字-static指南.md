@@ -1,4 +1,4 @@
----
+﻿---
 title: 关键字-static指南
 category: 03-面向对象
 topic: 40-语言特性
@@ -29,7 +29,8 @@ public class Main{
     public static  void main(String[] args ){  
         Person p1 = new Person("xiao hong", 12);  
         Person p2 = new Person("xiao ming", 13);  
-        System.out.println("绀轰緥涓暟锛? + Person.getCount());  
+        System.out.println("示例个数：" + Person.getCount());  
     }  
 }
 ```
+
